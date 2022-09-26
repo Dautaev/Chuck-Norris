@@ -11,7 +11,7 @@ random.addEventListener("click", () => {
             return data.json();
         })
         .then((data2) => {
-            text.textContent = data2.value;
+            text.textContent = data2.value; 
         });
     });
 
